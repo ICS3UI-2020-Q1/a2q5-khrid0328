@@ -29,16 +29,16 @@ public class Main {
     if(quotien_3 == 0 && quotien_5 == 0){
       // tell the user they need to say FizzBuzz
       System.out.println("You should say FizzBuzz");
-    } else if(quotien_5 == 0){
-
-      // tell the use they need to say Buzz
-      System.out.println("You should say Buzz");
     
-    } else if(quotien_3 == 0){
+    }else if(quotien_5 == 0){
+      // tell the use they need to say Buzz
+     System.out.println("You should say Buzz");
+
+    }else if(quotien_3 == 0){
       // tell the user they need to say Fizz
       System.out.println("You should say Fizz");
 
-    } else if(quotien_3 != 0 || quotien_5 != 0){
+    }else if(quotien_3 != 0 || quotien_5 != 0){
       // tell user to say original number
       System.out.println("You should say " + number);
     }
